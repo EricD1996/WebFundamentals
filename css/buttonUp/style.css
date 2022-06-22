@@ -1,0 +1,29 @@
+button{
+    margin-left: 20px;
+}
+#search{
+    height: 30px;
+    width: 175px;
+    border: 1px solid teal;
+    border-radius: 25px;
+    color:teal;
+}
+#plus{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(49, 204, 204);
+    border-radius: 50px;
+    border:1px solid  rgb(49, 204, 204);
+    color:white;
+    font-size: 25px;
+}
+#account{
+    margin-top: 20px;
+    height:30px;
+    width: 200px;
+    color:white;
+    background-color: rgb(62, 62, 199);
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
