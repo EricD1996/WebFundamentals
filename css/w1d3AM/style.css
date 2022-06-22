@@ -1,0 +1,43 @@
+*{
+    /* font-family:fantasy; */
+}
+body{
+    background-color: aqua;
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    color:crimson;
+    font-size: 40px;
+    background-color: aliceblue;
+}
+h2{
+    text-align:right;
+    text-decoration:underline;
+    font-style:oblique;
+    font-weight:100;
+    font-family: fantasy;
+}
+h3{
+    font-family:monospace;
+}
+span{
+    color:darkgreen;
+}
+p{
+    color:indigo;
+    line-height: 25px;
+}
+#p1{
+    font-style: italic;
+}
+.unda{
+    text-decoration:underline;
+}
+ol>li{
+    font-size:28px;
+}
+div>h3{
+    font-size:30px;
+}
