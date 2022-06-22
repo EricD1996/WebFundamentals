@@ -1,0 +1,46 @@
+#box-1{
+    height:575px;
+    background-color: grey;
+    padding: 15px;
+    width: 830px;
+}
+
+#green{
+    background-color: green;
+    height: 150px;
+    width: 820px;
+}
+#blue{
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+    margin: 15px 15px 15px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+#red{
+    margin: 15px 0px 0px 0px;
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+}
+#yellow1{
+    margin: 15px 0px 15px 15px;
+}
+#yellow2{
+    margin: 15px 0px 15px 15px;
+}
+.yellow{
+    margin:15px;
+    background-color: yellow;
+    width:175px;
+    height:175px;
+    display: inline-block;
+}
+#purple{
+    margin-left: 15px;
+    background-color: purple;
+    height:100px;
+    width:565px;
+}
