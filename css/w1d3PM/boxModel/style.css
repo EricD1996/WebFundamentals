@@ -1,0 +1,25 @@
+h1,button,h2,div{
+    border: 1px solid black;
+}
+h1,h2{
+    width:200px;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    box-shadow: 3px 3px 3px black;
+}
+#like{
+    margin-right:20px;
+}
+div{
+    height:200px;
+    /* width: 100px; */
+    background-color: aqua;
+    overflow-y: scroll;
+    border: 2px groove red;
+    /* border-radius: 5px; */
+    padding-left: 10px;
+    margin-top: 20px;
+}

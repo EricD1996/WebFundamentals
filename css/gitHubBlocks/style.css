@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.row{
+    height:200px;
+    width: 600px;
+    outline: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    height:150px;
+    width:150px;
+}
+#row1{
+    background-color: aqua;
+}
+#row2{
+    background-color: pink;
+    justify-content: center;
+    gap:100px;
+}
+#row3{
+    background-color: white
+}
