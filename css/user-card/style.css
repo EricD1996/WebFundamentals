@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color: teal;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
+.main{
+    border: 1px solid rgb(197, 195, 195);
+    width:600px;
+    margin: 0 auto;
+    height: 350px;
+}
+img{
+    border: 1px solid white;
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    position: relative;
+    left: 30px;
+    bottom:30px;
+}
+.info{
+    position:relative;
+    left:40px;
+    bottom:30px;
+}
+#location-pin{
+    width: 20px;
+    height: 20px;
+    left:0px;
+    bottom:0px;
+}
+.location{
+    display:flex;
+}
+p{
+    margin-top: 5px;
+}
+.edit-profile{
+    display:flex;
+}
+#cog{
+    width:20px;
+    height:20px;
+    position:relative;
+    bottom:-5px;
+    left:0;
+}
+a{
+    margin:5px;
+}
