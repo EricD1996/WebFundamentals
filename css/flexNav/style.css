@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 50px;
+    width: 800px;
+    background-color: rgb(99, 93, 93);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-title{
+    color:white;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+.btn{
+    width: 70px;
+    height: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px black;
+    background-color: rgb(23,162,184);
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white
+}
