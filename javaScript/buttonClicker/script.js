@@ -6,3 +6,7 @@ function removeButton(element){
 function changeText(element){
     element.innerText = "Logout";
 }
+
+function alertLike(element){
+    alert("Ninja was liked")
+}
