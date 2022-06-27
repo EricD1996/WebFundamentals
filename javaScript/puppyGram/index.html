@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppu Gram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div>
+            <input type="text" placeholder="Search a puppy name">
+            <button>Search!</button>
+        </div>
+        <button onclick="removeElement(this)">Login</button>
+    </div>
+    <div class="main">
+        <div id="col-left">
+            <div id="puppy">
+                <div class="left">
+                    <img onmouseover="changeImg(this)" src="./resources/puppy.jpeg" alt="">
+                    <h2>Junior</h2>
+                    <i>Male</i>
+                    <p>Breed: <i>Fox</i></p>
+                    <Button onclick="alert('You liked this pet!')">10 likes</Button>
+                </div>
+                <div class="right">
+                    <p>Junior is a very spontaneous, high-energy <a href="#">Fox</a> who loves to eat food</p>
+                </div>
+            </div>
+            <div id="puppy">
+                <div class="left">
+                    <img src="./resources/beagle.jpeg" alt="">
+                    <h2>Fluffy</h2>
+                    <i>Female</i>
+                    <p>Breed: <i>Beagle</i></p>
+                    <Button onclick="alert('You liked this pet!')">8 likes</Button>
+                </div>
+                <div class="right">
+                    <p>Fluffy is a quiet, shy, and calm <a href="#">Beagle</a> who loves to eat play fetch</p>
+                </div>
+            </div>
+        </div>
+        <div id="col-right">
+            <div class="Upload">
+                <p>Please upload your pup info to our puppy social media!</p>
+                <button onclick="uploadPup(this)">Upload new Pup!</button>
+            </div>
+            <div class="video-box">
+                <h3>Our popular video of the week!</h3>
+                <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" src="./resources/puppy_video.mp4"></video>
+                <p><i>This is Josie, the playful beach dog!</i></p>
+            </div>
+        </div>
+    </div>
+    <div class="accept">
+        <img src="./resources/caution.jpeg" alt="">
+        <p>This site will track all your information and sell it. You will get some dopamine hits from the scrolling tho. Would you like to accept these cookies?</p>
+        <button onclick="cookieMonster()">I accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
