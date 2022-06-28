@@ -27,3 +27,10 @@ function cookieMonster(){
     var element = document.querySelector(".accept");
     element.remove();
 }
+
+function incrementLike(id){
+    var element = document.querySelector(id);
+    var likeCount = Number(element.innerText);
+    likeCount++;
+    element.innerText = likeCount;
+}
