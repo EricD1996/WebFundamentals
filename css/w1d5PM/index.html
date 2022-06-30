@@ -24,13 +24,13 @@
                     <img id="jane"src="./images/jane-m.jpg" alt="jane">
                 </div>
                 <div id="profile-body">
-                    <h2>Jane Doe</h2>
+                    <h2 id="Jane">Jane Doe</h2>
                     <img src="./icons/map-marker.png" alt="map-marker">
                     <span>Seattle</span>
                     <p>Developer | Engineer | Problem Solver</p>
                     <p id="last-p">Master of shadows and the Internet</p>
                     <img src="./icons/gear.png" alt="gear">
-                    <a href="#">edit profile</a>
+                    <a href="#" onclick="changeName('#Jane')">edit profile</a>
                 </div>
             </div>
 
@@ -52,17 +52,17 @@
                     <span class="headerspan">Connection Requests</span>
                 </div>
                 <div class="card-body">
-                    <div class="Person">
+                    <div id="Todd"class="Person">
                         <img src="./images/todd-s.jpg" alt="Todd">
                         <span>Todd E</span>
-                        <img class="accept" src="./icons/accept-circle.png" alt="accept">
-                        <img class="reject" src="./icons/close-circle.png" alt="reject">
+                        <img onclick="acceptReject('#Todd')"class="accept" src="./icons/accept-circle.png" alt="accept">
+                        <img onclick="acceptReject('#Todd')"class="reject" src="./icons/close-circle.png" alt="reject">
                     </div>
-                    <div class="Person">
+                    <div id="Phil"class="Person">
                         <img src="./images/phil-s.jpg" alt="Phil">
                         <span>Phil K</span>
-                        <img class="accept" src="./icons/accept-circle.png" alt="accept">
-                        <img class="reject" src="./icons/close-circle.png" alt="reject">
+                        <img onclick="acceptReject('#Phil')"class="accept" src="./icons/accept-circle.png" alt="accept">
+                        <img onclick="acceptReject('#Phil')"class="reject" src="./icons/close-circle.png" alt="reject">
                     </div>
                 </div>
             </div>
@@ -96,5 +96,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
